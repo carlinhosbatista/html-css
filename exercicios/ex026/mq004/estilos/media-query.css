@@ -11,7 +11,9 @@ Grandes Telas: acima de 1200px
 */
 
 @media print { /* IMPRESSÃO */
-    
+    body {
+        background-image: url(../imagens/);
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) { /* TABLET */
